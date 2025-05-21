@@ -1,10 +1,5 @@
 # Gen4jectory Algorithm – 4-D Trajectory Planning for Rotary-Wing UAVs
 
-## Attribution
-
-> **Note:** This implementation reproduces the algorithm jointly developed by **Ivan Panov** and **Mouad Boumediene**.
-> Original code: https://github.com/mouad-boumediene/Gen4jectory_2025
-
 ## Overview
 Gen4jectory 2.0 is a 4-D trajectory-planning framework for fleets of rotary-wing UAVs. It employs a rigorous OBB-vs-OBB collision check based on the Separating Axis Theorem (SAT) to guarantee zero Loss-of-Separation (LoS) events within each drone's separation volume. By fusing high-fidelity rotorcraft performance models with a traffic-aware pathfinder and time-parameterised trajectory smoothing, Gen4jectory 2.0 rapidly generates conflict-free schedules that honour individual aircraft kinematics and air-space constraints. The project includes detailed physical modelling, map representation, trajectory generation, and outlines future research directions.
 ## Project Objectives
